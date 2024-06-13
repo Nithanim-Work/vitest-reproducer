@@ -1,0 +1,14 @@
+/*
+!/.vscode/extensions.json
+!/src
+!/.eslintrc.*
+!/.yarnrc.*
+!/.gitignore
+!/package.json
+!/tsconfig.*
+!/vite.config.ts
+!/vitest.config.ts
+!/yarn.lock
+!/test
+
+/**.tsbuildinfo

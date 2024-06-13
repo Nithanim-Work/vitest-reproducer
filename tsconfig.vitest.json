@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "lib": ["ESNext"],
+    "types": ["node", "jsdom", "vitest/globals"],
+    "paths": {
+      "@/*": ["src/*"],
+    },
+    "plugins": []
+  },
+  "include": [
+    "vitest.config.ts",
+    "test/**/*.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.json"
+    }
+  ]
+}
